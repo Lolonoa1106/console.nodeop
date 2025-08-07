@@ -635,18 +635,18 @@
             },
             {
               id: o.LM.NODE,
-              name: "$NODE",
+              name: "$DUMP",
               description:
                 es && _
                   ? "Loading balance..."
                   : "No extra fees • Available balance: "
                       .concat(_ ? ea : "--", " ")
-                      .concat(_ ? "$NODE" : ""),
+                      .concat(_ ? "$DUMP" : ""),
               icon: (0, s.jsx)("div", {
                 className:
                   "w-10 h-10 border border-white/10 rounded-full flex items-center justify-center",
                 children: (0, s.jsx)("img", {
-                  src: "/logoIcon.svg",
+                  src: "/logo.png",
                   alt: "NODE",
                   className: "w-5 h-5",
                 }),
@@ -816,7 +816,7 @@
                                               (0, s.jsx)("span", {
                                                 className: "flex-1",
                                                 children:
-                                                  "Convert $NODE to credits (USD) and enjoy a 10% bonus",
+                                                  "Convert $DUMP to credits (USD) and enjoy a 10% bonus",
                                               }),
                                             ],
                                           }),
@@ -1312,7 +1312,7 @@
                   }
                 : {
                     icon: (0, s.jsx)("img", {
-                      src: "/logoIcon.svg",
+                      src: "/logo.png",
                       alt: "logo",
                       width: 30,
                       height: 30,
@@ -2060,7 +2060,7 @@
           isShareOnTwitter: !0,
           shareInfo: {
             message:
-              "Just Deployed My PlayAI Oasis Node in seconds via NodeOps Console ⚡⚡\n  \n  #SmoothOperator #OneClickNodes\n      \n  https://console.nodeops.network\n      \n  @NodeOpsHQ\n  @playAInetwork",
+              "Just Deployed My PlayAI Oasis Node in seconds via DumpOps Console ⚡⚡\n  \n  #SmoothOperator #OneClickNodes\n      \n  https://console.nodeops.network\n      \n  @DumpOpsETH20\n  @playAInetwork",
             url: "https://nodeexplorer.playai.network/",
           },
         },
@@ -2073,7 +2073,7 @@
           isShareOnTwitter: !0,
           shareInfo: {
             message:
-              "Just Deployed My Ringfence Checker Node in seconds via NodeOps Console ⚡⚡\n  \n  #SmoothOperator #OneClickNodes\n      \n  https://console.nodeops.network\n      \n  @NodeOpsHQ\n  @RingfenceAI",
+              "Just Deployed My Ringfence Checker Node in seconds via DumpOps Console ⚡⚡\n  \n  #SmoothOperator #OneClickNodes\n      \n  https://console.nodeops.network\n      \n  @DumpOpsETH20\n  @RingfenceAI",
           },
           contractInfo: {
             abi: [
@@ -2109,7 +2109,7 @@
           isShareOnTwitter: !0,
           shareInfo: {
             message:
-              "Just Deployed My Vemp Horizon Node in seconds via NodeOps Console ⚡⚡\n  \n  #SmoothOperator #OneClickNodes\n      \n  https://console.nodeops.network\n      \n  @NodeOpsHQ\n  @VEMPHorizon",
+              "Just Deployed My Vemp Horizon Node in seconds via DumpOps Console ⚡⚡\n  \n  #SmoothOperator #OneClickNodes\n      \n  https://console.nodeops.network\n      \n  @DumpOpsETH20\n  @VEMPHorizon",
           },
           contractInfo: {
             abi: [
@@ -2195,7 +2195,7 @@
           showModal: !1,
           title: "Sign Key",
           subTitle:
-            "What is this transaction? \n This transaction grants permission from your sentry wallet to assign NodeOps as your Node Operator, Know More about this step here \n Note : \n  1. Kindly ensure to use the same wallet through which you have purchased the key",
+            "What is this transaction? \n This transaction grants permission from your sentry wallet to assign DumpOps as your Node Operator, Know More about this step here \n Note : \n  1. Kindly ensure to use the same wallet through which you have purchased the key",
           isAddress: !0,
           isDelegationUrl: !0,
           delegationUrlText: "Sign Key Here",
@@ -2206,7 +2206,7 @@
           showModal: !1,
           title: "Sign Key",
           subTitle:
-            "What is this transaction? \n This transaction grants permission from your sentry wallet to assign NodeOps as your Node Operator, Know More about this step here \n Note : \n  1. Kindly ensure to use the same wallet through which you have purchased the key",
+            "What is this transaction? \n This transaction grants permission from your sentry wallet to assign DumpOps as your Node Operator, Know More about this step here \n Note : \n  1. Kindly ensure to use the same wallet through which you have purchased the key",
           isAddress: !0,
           isDelegationUrl: !0,
           delegationUrlText: "Sign Key Here",
@@ -2230,7 +2230,7 @@
           isShareOnTwitter: !0,
           shareInfo: {
             message:
-              "Just Deployed My Carv Node in seconds via NodeOps Console ⚡⚡\n\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network\n    \n@NodeOpsHQ\n@carv_official",
+              "Just Deployed My Carv Node in seconds via DumpOps Console ⚡⚡\n\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network\n    \n@DumpOpsETH20\n@carv_official",
           },
           isDelegationUrl: !0,
           delegationUrl: "https://explorer.carv.io/verifiers",
@@ -2281,7 +2281,7 @@
           },
           shareInfo: {
             message:
-              "Just Deployed My KIP Checker Node in seconds via NodeOps Console ⚡⚡\n\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/kip\n    \n@NodeOpsHQ\n@KIPprotocol",
+              "Just Deployed My KIP Checker Node in seconds via DumpOps Console ⚡⚡\n\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/kip\n    \n@DumpOpsETH20\n@KIPprotocol",
           },
         },
         rivalz: {
@@ -2302,7 +2302,7 @@
           delegationUrl: "https://delegate.xyz/?r&chainId="
             .concat(eh._.hytopia.chainId, "&contract=")
             .concat(eh._.hytopia.contractAddress, "&delegate="),
-          delegationUrlText: "Delegate to NodeOps Guardian",
+          delegationUrlText: "Delegate to DumpOps Guardian",
         },
         openpad: {
           title: "Delegate To This Operator Wallet Address",
@@ -2313,7 +2313,7 @@
           buttonText: "Click to Delegate",
           shareInfo: {
             message:
-              "Just Deployed My OpenPad Verifier Node in seconds via NodeOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/openpad\n    \n@NodeOpsHQ\n@Openpad_IO",
+              "Just Deployed My OpenPad Verifier Node in seconds via DumpOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/openpad\n    \n@DumpOpsETH20\n@Openpad_IO",
           },
           contractInfo: {
             abi: [
@@ -2345,7 +2345,7 @@
           buttonText: "Click to Delegate",
           shareInfo: {
             message:
-              "Just Deployed My Fuse Light Node in seconds via NodeOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/fuse\n    \n@NodeOpsHQ\n@Fuse_network",
+              "Just Deployed My Fuse Light Node in seconds via DumpOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/fuse\n    \n@DumpOpsETH20\n@Fuse_network",
           },
           contractInfo: {
             abi: [
@@ -2383,7 +2383,7 @@
           buttonText: "Click to Delegate",
           shareInfo: {
             message:
-              "Just Deployed My Kap Checker Node in seconds via NodeOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode\n    \n@NodeOpsHQ\n@capncompany",
+              "Just Deployed My Kap Checker Node in seconds via DumpOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode\n    \n@DumpOpsETH20\n@capncompany",
           },
           contractInfo: {
             abi: [
@@ -2458,7 +2458,7 @@
           buttonText: "Click to Delegate",
           shareInfo: {
             message:
-              "Just Deployed My NodeOps Orchestrator Node in seconds via NodeOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/nodeops-mainnet-orchestrator\n    \n@NodeOpsHQ",
+              "Just Deployed My DumpOps Orchestrator Node in seconds via DumpOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/nodeops-mainnet-orchestrator\n    \n@DumpOpsETH20",
           },
           contractInfo: {
             abi: [
@@ -2494,7 +2494,7 @@
           buttonText: "Click to Delegate",
           shareInfo: {
             message:
-              "Just Deployed My 0G Alignment Node in seconds via NodeOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/zerog_alignment-testnet-alignment\n    \n@NodeOpsHQ\n@0G_labs",
+              "Just Deployed My 0G Alignment Node in seconds via DumpOps Console ⚡⚡\n#SmoothOperator #OneClickNodes\n    \nhttps://console.nodeops.network/deployNode/zerog_alignment-testnet-alignment\n    \n@DumpOpsETH20\n@0G_labs",
           },
           contractInfo: {
             abi: [
@@ -4509,10 +4509,10 @@
       });
       var s = a(26420);
       let n = {
-          name: "NodeOps Console",
-          description: "NodeOps Console",
+          name: "DumpOps Console",
+          description: "DumpOps Console",
           url: "https://console.nodeops.network",
-          icons: ["https://serve.nodeops.xyz/Logo-black.svg"],
+          icons: ["https://serve.nodeops.xyz/logo.png"],
         },
         l = {
           ethereum: s.RJ0,
@@ -4590,7 +4590,7 @@
             },
             blockExplorers: {
               default: {
-                name: "NodeOps Explorer",
+                name: "DumpOps Explorer",
                 url: "https://nodeops-orchestrator-network.calderaexplorer.xyz/",
               },
             },

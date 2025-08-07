@@ -2150,17 +2150,16 @@
         NODEOPS_STATS: "https://dune.com/nodeops/stats",
         DISCORD: "https://nodeops.network/discord",
         DOCS: "https://docs.nodeops.network/",
-        GITHUB: "https://github.com/NodeOps-app",
-        TWITTER: "https://x.com/NodeOpsHQ",
+        TWITTER: "https://x.com/DumpOpsETH20",
         EMAIL: "support@nodeops.network",
         WEBSITE: "https://nodeops.network",
         LEADERBOARD: "https://dune.com/nodeops/stats",
         DUNE: "https://dune.com/nodeops/stats",
         AUDIT_HALBORN: "https://www.halborn.com/audits/nodeops",
         AUDIT_OAK:
-          "https://github.com/oak-security/audit-reports/blob/main/NodeOps/2025-06-25%20Audit%20Report%20-%20NodeOps%20Network.pdf",
+          "",
         AUDIT_QUILL:
-          "https://github.com/Quillhash/QuillAudit_Reports/blob/master/NodeOPS%20Smart%20Contract%20Audit%20Report%20-%20QuillAudits.pdf",
+          "",
       };
       ((I = m || (m = {})).NODE_INFO = "nodeInfo"),
         (I.LOGS = "logs"),
@@ -2351,7 +2350,7 @@
           leftContent: {
             title: "Hi There! \uD83D\uDC4B\uD83C\uDFFB",
             subtitle:
-              "Welcome to NodeOps Console - your trusted, leading Node-As-A-Service (NaaS) provider",
+              "Welcome to DumpOps Console - your trusted, leading Node-As-A-Service (NaaS) provider",
           },
           rightContent: { type: "social" },
           isPrivate: !1,
@@ -2359,7 +2358,7 @@
         "/deployNode": {
           path: "/deployNode",
           leftContent: {
-            title: "Node Deployment",
+            title: "Dump Deployment",
             subtitle: "Easily deploy nodes with just one click",
           },
           rightContent: { type: "social" },
@@ -2413,7 +2412,7 @@
         "/deployNode/[partner]": {
           path: "/deployNode/[partner]",
           leftContent: {
-            title: "Node Deployment",
+            title: "Dump Deployment",
             subtitle: "Deploy your partner node",
           },
           rightContent: { type: "social" },
@@ -2422,7 +2421,7 @@
         "/node-delegation": {
           path: "/node-delegation",
           leftContent: {
-            title: "Node Delegation",
+            title: "Dump Delegation",
             subtitle: "Delegate your existing nodes to earn rewards",
           },
           rightContent: { type: "social" },
@@ -2559,9 +2558,9 @@
             .concat("https://console.nodeops.network", "/deployNode?code=")
             .concat(e),
         v = (e) =>
-          '\uD83D\uDE80 Unlock Your Exclusive @NodeOpsHQ Offer! \uD83D\uDE80\n\nDive into the future with NodeOps! Use my promo code "'.concat(
+          '\uD83D\uDE80 Unlock Your Exclusive @DumpOpsETH20 Offer! \uD83D\uDE80\n\nDive into the future with DumpOps! Use my promo code "'.concat(
             e,
-            '" when you deploy your node or make any purchase with NodeOps, and receive an instant 5% Off\n              \n\uD83D\uDC49 Click to deploy \uD83C\uDF10\uD83D\uDCBC'
+            '" when you deploy your node or make any purchase with DumpOps, and receive an instant 5% Off\n              \n\uD83D\uDC49 Click to deploy \uD83C\uDF10\uD83D\uDCBC'
           ),
         h = (e) =>
           e.includes("http") || e.includes("https")

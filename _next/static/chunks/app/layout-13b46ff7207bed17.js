@@ -98,16 +98,16 @@
         g = s(21099),
         N = s(37179);
       let y = [
-          { name: "Node Console", href: "/", icon: o.Z },
+          { name: "Dump Console", href: "/", icon: o.Z },
           {
-            name: "Node Deployment",
+            name: "Dump Deployment",
             href: "/deployNode.html",
             icon: d.Z,
             badge: N.F6.length > 0 ? N.F6.length.toString() : "",
           },
-          { name: "Node Delegation", href: "/node-delegation.html", icon: c.Z },
+          { name: "Dump Delegation", href: "/node-delegation.html", icon: c.Z },
           {
-            name: "NodePad",
+            name: "DumpPad",
             href: ["/launchpad.html", "/bootstrap-event"],
             icon: m.Z,
             badge: "New",
@@ -320,8 +320,8 @@
                   className:
                     "h-20 p-2 border-b border-border shrink-0 flex items-center justify-center",
                   children: (0, i.jsx)("img", {
-                    src: "/logo.svg",
-                    alt: "NodeOps",
+                    src: "/logo.png",
+                    alt: "DumpOps",
                     className: "h-8 w-48",
                   }),
                 }),
@@ -444,7 +444,7 @@
                               children: [
                                 (0, i.jsx)("img", {
                                   src: "/defualtProfile.png",
-                                  alt: "NodeOps",
+                                  alt: "DumpOps",
                                   className: "h-9 w-9 rounded-full",
                                 }),
                                 (0, i.jsxs)("div", {
@@ -548,37 +548,20 @@
                           (0, i.jsxs)("div", {
                             className: "flex items-center gap-2",
                             children: [
-                              (0, i.jsx)(a.default, {
-                                href: g.KT.AUDIT_QUILL,
-                                target: "_blank",
-                                children: (0, i.jsx)("img", {
-                                  src: "/auditedBy/QuillAudit.png",
-                                  alt: "NodeOps",
-                                  className: "h-7 w-fit",
-                                }),
+                              (0, i.jsx)("img", {
+                                src: "/auditedBy/QuillAudit.png",
+                                alt: "DumpOps",
+                                className: "h-7 w-fit",
                               }),
                               (0, i.jsx)("img", {
                                 src: "/auditedBy/quantstamp.png",
-                                alt: "NodeOps",
+                                alt: "DumpOps",
                                 className: "h-7 w-fit",
                               }),
-                              (0, i.jsx)(a.default, {
-                                href: g.KT.AUDIT_HALBORN,
-                                target: "_blank",
-                                children: (0, i.jsx)("img", {
-                                  src: "/auditedBy/halborn.png",
-                                  alt: "NodeOps",
-                                  className: "h-7 w-fit",
-                                }),
-                              }),
-                              (0, i.jsx)(a.default, {
-                                href: g.KT.AUDIT_OAK,
-                                target: "_blank",
-                                children: (0, i.jsx)("img", {
-                                  src: "/auditedBy/oak.png",
-                                  alt: "NodeOps",
-                                  className: "h-7 w-fit",
-                                }),
+                              (0, i.jsx)("img", {
+                                src: "/auditedBy/halborn.png",
+                                alt: "DumpOps",
+                                className: "h-7 w-fit",
                               }),
                             ],
                           }),
@@ -762,12 +745,12 @@
                     new Notification(
                       (null === (r = t.notification) || void 0 === r
                         ? void 0
-                        : r.title) || "NodeOps Notification",
+                        : r.title) || "DumpOps Notification",
                       {
                         body:
                           (null === (a = t.notification) || void 0 === a
                             ? void 0
-                            : a.body) || "New Notification from NodeOps",
+                            : a.body) || "New Notification from DumpOps",
                         data: l ? { url: l } : void 0,
                       }
                     ).onclick = (t) => {
@@ -2486,18 +2469,11 @@
                                               null == m ? void 0 : m.toFixed(2),
                                             ],
                                           }),
-                                          (0, i.jsxs)(a.default, {
-                                            href: "https://portal.nodeops.network/rewards",
-                                            target: "_blank",
-                                            className:
-                                              "flex items-center gap-1 font-mono font-bold",
-                                            children: [
-                                              h,
+                                          (0, i.jsxs)(
                                               (0, i.jsx)(k.Z, {
-                                                className: "w-4 h-4",
+                                                className: "w-4 h-4 flex items-center gap-1 font-mono font-bold",
                                               }),
-                                            ],
-                                          }),
+                                           ),
                                         ],
                                       }),
                                       m < g.B$
@@ -2554,7 +2530,7 @@
                                     children: [
                                       (0, i.jsx)("img", {
                                         src: "/defualtProfile.png",
-                                        alt: "NodeOps",
+                                        alt: "DumpOps",
                                         className: "h-9 w-9 rounded-full",
                                       }),
                                       (0, i.jsxs)("div", {
@@ -2633,13 +2609,13 @@
                                       target: "_blank",
                                       children: (0, i.jsx)("img", {
                                         src: "/auditedBy/QuillAudit.png",
-                                        alt: "NodeOps",
+                                        alt: "DumpOps",
                                         className: "h-7 w-7",
                                       }),
                                     }),
                                     (0, i.jsx)("img", {
                                       src: "/auditedBy/quantstamp.png",
-                                      alt: "NodeOps",
+                                      alt: "DumpOps",
                                       className: "h-7 w-7",
                                     }),
                                     (0, i.jsx)(a.default, {
@@ -2647,7 +2623,7 @@
                                       target: "_blank",
                                       children: (0, i.jsx)("img", {
                                         src: "/auditedBy/halborn.png",
-                                        alt: "NodeOps",
+                                        alt: "DumpOps",
                                         className: "h-7 w-7",
                                       }),
                                     }),
@@ -2656,7 +2632,7 @@
                                       target: "_blank",
                                       children: (0, i.jsx)("img", {
                                         src: "/auditedBy/oak.png",
-                                        alt: "NodeOps",
+                                        alt: "DumpOps",
                                         className: "h-7 w-7",
                                       }),
                                     }),
@@ -2709,8 +2685,8 @@
                       href: "/",
                       className: "flex items-center",
                       children: (0, i.jsx)("img", {
-                        src: "/logo.svg",
-                        alt: "NodeOps",
+                        src: "/logo.png",
+                        alt: "DumpOps",
                         className: "h-6",
                       }),
                     }),

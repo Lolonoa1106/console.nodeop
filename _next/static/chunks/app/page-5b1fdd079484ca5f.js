@@ -158,7 +158,7 @@
                     }),
                     (0, s.jsx)("p", {
                       className: "text-primary/60 text-xs",
-                      children: "Total Nodes",
+                      children: "Total Dumps",
                     }),
                   ],
                 }),
@@ -195,34 +195,13 @@
       var c = l(19764),
         x = l(14435);
       let m = [
-        {
-          image:
-            "https://ik.imagekit.io/nodeops/assets/Beamable_Ad.webp?updatedAt=1753084523650",
-          title: "Beamable",
-          description: "",
-          code: "",
-          link: "https://console.nodeops.network/launchpad/beamable",
-          isComingSoon: !1,
-          ctaText: "Purchase",
-          ctaMode: "Light",
-          showReminderCTA: "",
-          releaseDate: "",
-          releaseTitle: "",
-          totalNodes: 3e3,
-          rewards:
-            "1% of the Total $BMB supply (10 Million tokens) will be emitted to the 3,000 buyers of the Alpha Checker Node Sale.",
-          socials: {
-            website: "https://beamable.network",
-            docs: "https://docs.beamable.network",
-            twitter: "https://x.com/beamablenetwork",
-          },
-        },
+ 
         {
           image: "NodeOpsBanner.webp",
-          title: "Deploy UNO node",
+          title: "Deploy UNO dump",
           description: "",
           code: "",
-          link: "https://console.nodeops.network/deployNode/nodeops-mainnet-orchestrator",
+          link: "https://console.dumpops.vercel.app/deployNode/nodeops-mainnet-orchestrator",
           isComingSoon: !1,
           ctaText: "Deploy",
           ctaMode: "Light",
@@ -232,14 +211,14 @@
           totalNodes: 1e4,
           rewards: "15% of the total supply allocated to Protocol incentives",
           socials: {
-            website: "https://nodeops.network",
+            website: "https://dumpops.vercel.app",
             docs: "https://docs.nodeops.network",
-            twitter: "https://x.com/NodeOpsHQ",
+            twitter: "https://x.com/DumpOpsETH20",
           },
         },
         {
           image: "NodeOpsStakeBanner.webp",
-          title: "Stake $NODE",
+          title: "Stake $DUMP",
           description: "",
           code: "",
           link: "https://portal.nodeops.network/stake",
@@ -253,29 +232,9 @@
           rewards:
             "47.5% of the total supply allocated to Community incentives",
           socials: {
-            website: "https://nodeops.network",
+            website: "https://dumpops.vercel.app",
             docs: "https://docs.nodeops.network",
-            twitter: "https://x.com/NodeOpsHQ",
-          },
-        },
-        {
-          image: "BeamBanner.webp",
-          title: "Beam",
-          description: "Validator Node Deployment is live now",
-          code: "",
-          link: "https://console.nodeops.xyz/deployNode",
-          isComingSoon: !1,
-          ctaText: "Deploy",
-          ctaMode: "Light",
-          showReminderCTA: "",
-          releaseDate: "",
-          releaseTitle: "",
-          totalNodes: 0,
-          rewards: "",
-          socials: {
-            website: "https://onbeam.com/",
-            docs: "https://docs.onbeam.com/nodes",
-            twitter: "https://x.com/BuildOnBeam",
+            twitter: "https://x.com/DumpOpsETH20",
           },
         },
       ];
@@ -465,7 +424,7 @@
                                           (0, s.jsx)("p", {
                                             className:
                                               "font-medium text-xs text-primary/60 text-nowrap",
-                                            children: "Total Nodes",
+                                            children: "Total Dumps",
                                           }),
                                         ],
                                       }),
@@ -497,7 +456,7 @@
                     children: [
                       (0, s.jsx)("p", {
                         className: "text-lg font-medium",
-                        children: "About NodeOps",
+                        children: "About DumpOps",
                       }),
                       (0, s.jsxs)(n.default, {
                         href: "https://dune.com/nodeops/stats",

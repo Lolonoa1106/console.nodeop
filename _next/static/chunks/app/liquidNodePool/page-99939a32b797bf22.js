@@ -439,7 +439,7 @@
         {
           title: "Where Do the NFTs Go?",
           steps: [
-            "Deposited NFTs are used to spin up nodes via NodeOps.",
+            "Deposited NFTs are used to spin up nodes via DumpOps.",
             "LNT receives native token rewards from the Partner Project and manages node operations.",
           ],
         },

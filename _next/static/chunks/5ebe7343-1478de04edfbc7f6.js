@@ -920,7 +920,7 @@
             (t.prototype.imitate = function (t) {
               if (t instanceof q)
                 throw Error(
-                  "A MemoryStream was given to imitate(), but it only supports a Stream. Read more about this restriction here: https://github.com/staltz/xstream#faq"
+                  "A MemoryStream was given to imitate(), but it only supports a Stream. Read more about this restriction here"
                 );
               this._target = t;
               for (var i = this._ils, o = i.length, n = 0; n < o; n++)
